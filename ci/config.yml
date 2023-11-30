@@ -1,0 +1,9 @@
+---
+org: sellular-io
+parent: sellular
+serviceName: sellular-calendar
+language: nodejs
+build:
+  nodejs:
+    separateBuilds: true
+    outputDistDir: 'ci'
